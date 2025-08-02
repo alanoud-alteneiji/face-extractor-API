@@ -4,7 +4,7 @@ This project lets you upload a scanned ID or passport and returns the portrait f
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 
 Here’s the public API (running on ngrok):  
 **https://7c48a516a154.ngrok-free.app/docs**
@@ -15,7 +15,7 @@ You can try both endpoints:
 
 ---
 
-## 💡 What It Does
+## What It Does
 
 - Detects the largest face in an image
 - Crops it and returns the result
@@ -24,7 +24,7 @@ You can try both endpoints:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 face-extractor-api/
 ├── app/
@@ -36,13 +36,13 @@ face-extractor-api/
 
 ---
 
-## 🧪 Example Response
+## Example Response
 
 {
   "base64_image": "iVBORw0KGgoAAAANSUhEUgAA..."
 }
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - FastAPI
 - OpenCV
@@ -50,13 +50,13 @@ face-extractor-api/
 - NumPy
 - pyngrok
 
-## 📌 Why I Built It
+## Why I Built It
 
 Cropping faces manually is annoying and repetitive. I wanted something simple that could do it in one API call — especially for scanned documents like IDs or passports, and for things like onboarding workflows.
 
 
 ---
-## 🛠️ Run Locally (Optional)
+## Run Locally (Optional)
 
 If you want to run it on your laptop:
 
