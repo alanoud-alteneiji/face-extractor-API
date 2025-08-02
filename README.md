@@ -6,8 +6,8 @@ This project lets you upload a scanned ID or passport and returns the portrait f
 
 ##  Live Demo
 
-Here’s the public API (running on ngrok):  
-**https://7c48a516a154.ngrok-free.app/docs**
+Here’s the public API (running on render):  
+[**https://7c48a516a154.ngrok-free.app/docs**](https://face-extractor-api-2.onrender.com/docs)
 
 You can try both endpoints:
 - `/extract/base64` → returns the face as base64
